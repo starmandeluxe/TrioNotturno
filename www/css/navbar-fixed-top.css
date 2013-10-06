@@ -1,0 +1,70 @@
+/*navbar styling/color */
+.navbar {
+  background-color: #1D0051; /* fallback color, place your own */
+
+  /* Gradients for modern browsers, replace as you see fit */
+  background-image: -moz-linear-gradient(top, #2A0077, #1D0051);
+  background-image: -ms-linear-gradient(top, #2A0077, #1D0051);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2A0077), to(#1D0051));
+  background-image: -webkit-linear-gradient(top, #2A0077, #1D0051);
+  background-image: -o-linear-gradient(top, #2A0077, #1D0051);
+  background-image: linear-gradient(top, #2A0077, #1D0051);
+  background-repeat: repeat-x;
+
+  /* IE8-9 gradient filter */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+}
+
+/*font of nav bar items*/
+.navbar .nav > li > a {
+	color:#FFFFFF;
+}
+
+/*font of nav bar items on focus*/
+.navbar-nav > .active > a:focus {
+  color:#FFFFFF;
+}
+
+
+/*active navbar selection style/color */
+.navbar-nav .active a {
+	background-image: -webkit-linear-gradient(left, #1D0051 0%, #0C2B91 50%, #1D0051 100%);
+  background-image: -moz-linear-gradient(left, #1D0051 0%, #0C2B91 50%, #1D0051 100%);
+  background-image: -ms-linear-gradient(left, #1D0051 0%, #0C2B91 50%, #1D0051 100%);
+}
+
+
+/*navbar text font control */
+.navbar .nav > li > a {
+   font-size:25px;
+   color: #FFFFFF;
+   font-family:Josefin Slab;
+}
+
+/*navbar hover style*/ 
+.navbar .nav > li > a:hover {
+	color:#FFFFFF;
+	background-image: -webkit-linear-gradient(left, #1D0051 0%, #0C2B91 50%, #1D0051 100%);
+  background-image: -moz-linear-gradient(left, #1D0051 0%, #0C2B91 50%, #1D0051 100%);
+  background-image: -ms-linear-gradient(left, #1D0051 0%, #0C2B91 50%, #1D0051 100%);
+}
+
+.navbar .container {
+	width:600px;
+}
+
+.navbar-brand {
+    max-height: 40px;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 20px;
+    /*set the horizontal orientation of the navigation buttons */
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.nav-pills {
+	height:40px;
+}
+

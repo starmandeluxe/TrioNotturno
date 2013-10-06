@@ -1,0 +1,15 @@
+.title {
+	color: #FFFFFF;
+	font-family: 'Josefin Slab', serif;
+	font-size: 24px;
+}
+
+.navbar-brand:hover {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+	font-family: 'Josefin Slab', serif;
+	font-size: 48px;
+}

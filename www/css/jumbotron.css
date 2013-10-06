@@ -1,0 +1,23 @@
+.jumbotron {
+background-color:black;
+/*position: relative;*/
+/*z-index: 3;*/
+opacity:0.75;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+/*z-index: 2;*/
+}
+
+/*.jumbotron:after {
+	background: url('../img/trionotturno_group4.jpg') no-repeat;
+	background-size: 100% 100%;
+	bottom: 0;
+          content: "";
+          display: block;
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 2;
+}*/
